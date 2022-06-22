@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(../img/textura_bg.jpg);
+}
+
+/* --------------------------------------------------------------- */
+
+/* Estilo general para enlaces y titulos */
+
+a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1 {
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.texto_negrita {
+    font-weight: bold;
+}
+
+.h2_centrado {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Header + Portada */
+
+.nav_bg_negro {
+    background-color: #323232;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* --------------------------------------------------------------- */
+
+/* HTML Index */
+
+#portada_index {
+    background-image: url(../img/portada.png);
+    min-height: 100vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portada_index h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4.5rem;
+    clear: left;
+    top: 25rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#portada_index span {
+    color: #b39975;
+}
+
+#home_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#home_info-texto {
+    width: 50%;
+    justify-items: center;
+    margin: 8% 7% 5% 3%;
+}
+
+#home_info-texto p {
+    font-size: 1rem;
+}
+
+#home_info-img img {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#habitaciones {
+    text-align: center;
+    margin: 2% 20%;
+}
+
+#habitaciones h2 {
+    text-align: center;
+    margin: 6rem 1.5rem 4rem 1.5rem;
+}
+
+.bordes {
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+#habitaciones_imagenes {
+    border-bottom: 15px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* HTML Bar & Rest */
+
+#portada_bar-rest {
+    background-image: url(../img/portada_bar.png);
+    min-height: 60vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portada_bar-rest h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4.5rem;
+    clear: left;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#textos_bar-rest {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 60%;
+}
+
+#textos_bar-rest h2 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#textos_bar-rest h3 {
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#boton_menu {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#boton_menu a {
+    border: 1px solid #2e518b;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+#boton_menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+}
+
+#bar_img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+#bar_descripcion {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#bar_descripcion {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#bar_descripcion h3 {
+    margin-top: 20px;
+}
+
+#restaurante_descripcion {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#restaurante_descripcion h3 {
+    margin-top: 20px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* HTML Galeria */
+
+#portada_galeria {
+    background-image: url(../img/portada_galeria.png);
+    min-height: 60vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portada_galeria h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4.5rem;
+    clear: left;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#galeria_textos {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 40%;
+}
+
+#galeria_textos h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#galeria_img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+#galeria_img img {
+    width: 500px;
+    height: 400px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* HTML Nosotros */
+
+#portada_nosotros {
+    background-image: url(../img/portada_nosotros.png);
+    min-height: 60vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portada_nosotros h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4.5rem;
+    clear: left;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#nosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nosotros_img {
+    margin: 5% 5% 5% 10%;
+    width: 40%;
+}
+
+#nosotros_img img {
+    width: 100%;
+}
+
+#nosotros_texto {
+    margin: 5% 10% 5% 0%;
+    text-align: center;
+    width: 60%;
+}
+
+#nosotros_texto h1 {
+    text-align: left;
+}
+
+#nosotros_texto p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* --------------------------------------------------------------- */
+
+/* HTML Contacto */
+
+#portada_contacto {
+    background-image: url(../img/contacto.png);
+    min-height: 60vh;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#portada_contacto h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4.5rem;
+    clear: left;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 5% 0;
+}
+
+.formulario article {
+    margin-right: 5%;
+    width: 450px;
+    height: auto;
+}
+
+.formulario article p {
+    margin-bottom: 50px;
+}
+
+.formulario p {
+    font-weight: bold;
+}
+
+.formulario input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.formulario label {
+    display: block;
+    float: center;
+}
+
+
+.formulario button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 405px;
+    cursor: pointer;
+}
+
+
+.formulario button p {
+    color: #fff;
+}
+
+.formulario span {
+    color: #ab4493;
+}
+
+.formulario aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+.formulario select {
+    width: 405px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Footer */
+
+footer {
+    background-color: #323232;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer_logo {
+    margin-top: 2rem;
+    height: 125px;
+    width: auto;
+}
+
+footer img {
+    margin: 1.5rem;
+}
+
+.footer_redes {
+    margin: 2rem 1.5rem;
+    width: 16rem;
+    justify-self: end;
+}
+
+.footer_redes p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer_redes a {
+    margin: 1rem;
+    position: relative;
+    left: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Contactanos | Hotel Monumental</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<!-- Comienza body -->
+
+<body>
+
+    <!-- Comienza header -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <img class="logo" src="img/logo.png" width="70px" height="50px" alt="Logo Monumental">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bar&rest.html">Bar&Rest</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="nosotros.html">¿Quienes Somos?</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Comienza main -->
+
+    <main>
+        <div id="portada_contacto">
+            <h1>Contactanos</h1>
+        </div>
+
+        <h2 class="h2_centrado">¿Dónde encontrarnos?</h2>
+
+        <section class="formulario">
+            <div>
+            </div>
+            <article>
+                <p class="texto_negrita">Por favor, complete el formulario y reciba nuestra respuesta a sus necesidades.
+                </p>
+                <b>Direccion:</b>
+                <p>Marcelo T. de Alvear 980, Argentina</p>
+                <b>Telefono:</b>
+                <p>+(5411) 4352 5070/3</p>
+                <b>EMAIL:</b>
+                <p>reservas@libertadorhotel.com</p>
+            </article>
+            <form action="#" method="get">
+                <input style="width: 223px;" type="text" placeholder="Nombre">
+                <input style="width: 223px;" type="text" placeholder="Apellido"><br><br>
+                <input style="width: 450px;" type="email" placeholder="Email" name="email" required><br><br>
+                <select style="width: 450px">
+                    <option selected>Seleccionar Motivo</option>
+                    <option value="1">Reservar</option>
+                    <option value="2">Reclamos</option>
+                    <option value="3">Otras consultas</option>
+                </select><br><br>
+                <textarea style="width: 450px; height: 118px;" maxlenght="250" placeholder="Comentarios"></textarea><br>
+                <input type="checkbox">Suscribirse al newsteller<br><br>
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Comienza Footer -->
+
+    <footer>
+        <img src="img/logo.png" alt="logo" class="footer_logo" />
+        <div class="footer_redes">
+            <p>Seguinos en nuestras redes</p>
+            <a href="https://www.instagram.com/" target="_blank" class="fa-brands fa-instagram"></a>
+            <a href="https://www.twitter.com/" target="_blank" class="fa-brands fa-twitter"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="fa-brands fa-facebook-f"></a>
+        </div>
+    </footer>
+    <!-- Comienza Scripts -->
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/fb468ee517.js" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
